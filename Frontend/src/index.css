@@ -1,0 +1,32 @@
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/600.css';
+@import '@fontsource/dm-sans/700.css';
+@import '@fontsource/dm-mono/400.css';
+@import '@fontsource/fraunces/600.css';
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #23332f;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #23332f;
+  --muted: #7a8580;
+  --line: #e3e8e3;
+  --paper: #fff;
+  --canvas: #f7f8f5;
+  --green: #397c68;
+  --green-dark: #285b4d;
+  --coral: #ca7155;
+  --mono: 'DM Mono', monospace;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, textarea, select { font: inherit; }
+button { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px solid #86b9a9; outline-offset: 2px; }
+::selection { color: #173d32; background: #d4e8de; }
